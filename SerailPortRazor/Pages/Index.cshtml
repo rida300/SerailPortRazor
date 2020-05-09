@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<meta http-equiv="refresh" content="5" />
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<form method="get">
+    <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary" asp-page-handler="Connect">Connect</button>
+        <input asp-for="SerialData" class="form-control" placeholder="Serial data from arduino">
+        <input asp-for="TestProp" class="form-control" placeholder="test">
+    </div>
+</form>*@
+
+<div class="container">
+    <div class="row">&nbsp;</div>
+    <div class="row">        
+        <div class="col-6">
+            RunTime data1... <input type"text" asp-for="SerialData" id="SerialData"/>
+        </div>
+</div>
+
